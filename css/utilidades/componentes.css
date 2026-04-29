@@ -1,4 +1,3 @@
-/*container*/
 .container {
   box-sizing: border-box;
   max-width: 1200px;
@@ -8,7 +7,6 @@
   margin-right: auto;
 }
 
-/*botão*/
 .botao {
   display: inline-block;
   padding: 16px 32px;
@@ -21,9 +19,11 @@
     600 1.125rem/1.35 "Poppins",
     sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
-.botao a:hover {
+.botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
 
@@ -48,7 +48,7 @@
   height: 10px;
   margin-left: 12px;
   background: url("../../img/icones/seta.svg");
-  transition: trasform 0.2s;
+  transition: transform 0.2s;
 }
 
 .botao.seta:hover::after {
@@ -83,7 +83,7 @@
   color: var(--cor-0);
 }
 
-/*titulo internos*/
+/* titulo internas */
 .titulo-bg {
   padding-top: 60px;
   padding-bottom: 60px;
